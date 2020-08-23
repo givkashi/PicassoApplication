@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.me.shopping.MainActivity">
+
+
+
+
+    <include layout="@layout/content_main" />
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="next activity"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/btn_dialog"/>
+
+</RelativeLayout>
